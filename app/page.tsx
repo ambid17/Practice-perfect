@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <p>Practice Perfect</p>
 
-      <h2>your best website solution team</h2>
+      <h2>your best website solutione team</h2>
     </main>
   )
 }
