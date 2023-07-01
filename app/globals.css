@@ -5,7 +5,7 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 34, 151, 164 ;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,3 +25,27 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+  
+h1 {font-style: italic;
+  font-size: 45px;}
+h2 {font-size: 30px; text-align: center;}
+p { font-size: 14px;}
+div.sticky {
+  position: -webkit-sticky;
+  background-image: url(../img/test-image.jpg.png);
+  position: sticky;
+  top: 0;
+  padding: 18px;
+  border: 2px solid #000000;
+}
+.center {
+  text-align: center}
+  .navbar a {
+    float: left;
+    font-style: italic;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px 80px;
+    text-decoration: none;
+  }
