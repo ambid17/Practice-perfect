@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Navbar from './components/navbar'
 
 export default function Home() {
   return (
@@ -11,17 +12,6 @@ export default function Home() {
 
       <div className="center"><h1><a> Practice Perfect</a></h1></div>
       <br></br>
-
-      <div className="sticky">
-        <div className="navbar">
-          <Link href="/aboutus">About</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/contactus">Contact</Link>
-        </div>
-      </div>
-
-
-
 
       <br></br>
       <h2>your best website solution team</h2>
