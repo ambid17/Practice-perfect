@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import Navbar from './components/navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -15,9 +16,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
+    <html lang="en" className="h-full bg-gray-50">
+      <body className="h-full">
+        <Suspense>
+          <Navbar />
+        </Suspense>
+
         {children}
       </body>
     </html>
